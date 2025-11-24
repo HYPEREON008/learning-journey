@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "author": "Sanmitra Goswami",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 298.2, "left": 162.6, "attrs": {} },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -107.6,
+      "left": 216.8,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 150.4,
+      "left": 620,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -2, "left": 652.8, "attrs": {} },
+    { "type": "wokwi-buzzer", "id": "bz1", "top": 156, "left": 69, "attrs": { "volume": "0.1" } }
+  ],
+  "connections": [
+    [ "uno:8", "keypad1:R3", "green", [ "v0" ] ],
+    [ "keypad1:R1", "uno:10", "green", [ "v0" ] ],
+    [ "keypad1:R2", "uno:9", "green", [ "v0" ] ],
+    [ "keypad1:C1", "uno:6", "green", [ "v0" ] ],
+    [ "keypad1:C2", "uno:5", "green", [ "v0" ] ],
+    [ "keypad1:R4", "uno:7", "green", [ "v0" ] ],
+    [ "keypad1:C3", "uno:4", "green", [ "v0" ] ],
+    [ "keypad1:C4", "uno:3", "green", [ "v0" ] ],
+    [ "servo1:GND", "lcd1:GND", "black", [ "h0" ] ],
+    [ "servo1:V+", "lcd1:VCC", "green", [ "h-153.6", "v124.8" ] ],
+    [ "servo1:PWM", "uno:2", "green", [ "v0.2", "h-244.1" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h-48", "v182.6" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h-28.8", "v307.5", "h-67.2" ] ],
+    [ "uno:5V", "lcd1:VCC", "red", [ "v57.5", "h224.6", "v-355.3" ] ],
+    [ "bz1:2", "uno:12", "green", [ "v38.4", "h191.6" ] ],
+    [ "bz1:1", "uno:GND.2", "green", [ "v288", "h9.6" ] ],
+    [ "uno:GND.3", "lcd1:GND", "black", [ "v38.3", "h138.4", "v-345.6", "h0", "v9.6" ] ]
+  ],
+  "dependencies": {}
+}

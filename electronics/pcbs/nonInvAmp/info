@@ -1,0 +1,92 @@
+{
+  "uuid": "e77d85347d89bcd62dee842a751596fa",
+  "path": "Offline/nonInvAmp",
+  "name": "nonInvAmp",
+  "content": "",
+  "created_at": "2025-09-23 13:58:24",
+  "updated_at": "2025-11-24 18:05:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "918f0a92f684f96ea5425e7cdc98bf3b",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4a3473f6efb5430ab5841ea36147f099": 1,
+        "84457a88192e444b90a01b266c7e891e": 1,
+        "270e07d2bee5476aac51ad4fe01d4711": 1,
+        "f68ffc7773964da188acbcb162cebc32": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1kΩ",
+          1,
+          "R0402",
+          "R1",
+          {
+            "Manufacturer Part": "RAT021001FTH",
+            "Manufacturer": "RALEC(旺诠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5122376"
+          }
+        ],
+        [
+          "JL148SCA",
+          1,
+          "DIP14",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "A005-5PIN",
+          1,
+          "CONN-TH_A005-5PIN",
+          "U3",
+          {
+            "Manufacturer Part": "A005-5PIN",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900174676"
+          }
+        ],
+        [
+          "30kΩ",
+          1,
+          "R0402",
+          "U4",
+          {
+            "Manufacturer Part": "RT0402BRD0730KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C728558"
+          }
+        ]
+      ],
+      "updateTime": 1763987727,
+      "createTime": 1758616104,
+      "histories": [],
+      "created_at": "2025-09-23 13:58:24",
+      "updated_at": "2025-11-24 18:05:27"
+    }
+  ],
+  "sort": [],
+  "title": "nonInvAmp",
+  "foldername": "nonInvAmp",
+  "schfilename": "nonInvAmp.json",
+  "schfilemtime": 1763987727169
+}

@@ -1,0 +1,43 @@
+{
+  "uuid": "897986ede737ac4ef439ecb66f4b8417",
+  "path": "Offline/H-Bridge",
+  "name": "H-Bridge",
+  "content": "",
+  "created_at": "2025-09-19 00:53:16",
+  "updated_at": "2025-11-24 18:06:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e0b17da1ccceb8d33a7327523b5556b2",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1763987778,
+      "createTime": 1763987778,
+      "histories": [],
+      "created_at": "2025-11-24 18:06:18",
+      "updated_at": "2025-11-24 18:06:18"
+    },
+    {
+      "uuid": "3e03d2e0b77feace84174720fbb46ad8",
+      "title": "PCB_H-Bridge",
+      "filename": "PCB_H-Bridge.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1759555122,
+      "createTime": 1759555122,
+      "histories": [],
+      "created_at": "2025-10-04 10:48:42",
+      "updated_at": "2025-10-04 10:48:42"
+    }
+  ],
+  "sort": [],
+  "title": "H-Bridge",
+  "foldername": "H-Bridge",
+  "schfilename": "H-Bridge.json",
+  "schfilemtime": 1763987971494.0198
+}

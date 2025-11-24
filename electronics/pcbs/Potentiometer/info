@@ -1,0 +1,196 @@
+{
+  "uuid": "f67a896313a455e07aa6397185ac4c16",
+  "path": "Offline/Potentiometer",
+  "name": "Potentiometer",
+  "content": "",
+  "created_at": "2025-09-19 10:25:18",
+  "updated_at": "2025-11-24 18:06:15",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "04fbb3ed60ed165dc3f9ad79c4137e7c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "336cf7b012e44b769b47bdf8ef344f47": 1,
+        "0bb6c76a66b94d12a85710aa1fe5f054": 1,
+        "b2ab0463ef414510ac275f74a0cdbe86": 1,
+        "51980245920c4fa7977b63c727e1567f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "150Ω",
+          1,
+          "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+          "R1",
+          {
+            "Manufacturer Part": "CR1/8W-150Ω±5%-ST26",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2896939"
+          }
+        ],
+        [
+          "2.5kΩ",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RJ1",
+          {
+            "Manufacturer Part": "3386P-1-252LF",
+            "Manufacturer": "BOURNS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5512020"
+          }
+        ],
+        [
+          "2PIN(2MM)-1",
+          1,
+          "CONN-TH_2PIN2MM-1",
+          "U2",
+          {
+            "Manufacturer Part": "2PIN(2MM)-1",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004826"
+          }
+        ],
+        [
+          "40Ω",
+          1,
+          "RES-TH_L15.9-W8.7-P12.70-D0.8",
+          "U3",
+          {
+            "Manufacturer Part": "R5J40RE",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3471745"
+          }
+        ]
+      ],
+      "updateTime": 1763987775,
+      "createTime": 1758257718,
+      "histories": [],
+      "created_at": "2025-09-19 10:25:18",
+      "updated_at": "2025-11-24 18:06:15"
+    },
+    {
+      "uuid": "b0bf3cd55be88f4fdab518c51c7930fa",
+      "puuid": "f67a896313a455e07aa6397185ac4c16",
+      "title": "PCB_Potentiometer",
+      "filename": "PCB_Potentiometer.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 1,
+        "2aa241eaefb14d33b376af5c20c7e794": 1,
+        "13ad1e2079144cfeaefa6d40bf57e79e": 1,
+        "a22936079fc24a6c9f0699f228bfb9d6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "2.5kΩ",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RJ1",
+          {
+            "Manufacturer Part": "3386P-1-252LF",
+            "Manufacturer": "BOURNS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5512020"
+          }
+        ],
+        [
+          "150Ω",
+          1,
+          "RES-TH_OHMITE_TA303PAXXXXX",
+          "U1",
+          {
+            "Manufacturer Part": "TA303PA150RJE",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2647467"
+          }
+        ],
+        [
+          "2PIN(2MM)-1",
+          1,
+          "CONN-TH_2PIN2MM-1",
+          "U2",
+          {
+            "Manufacturer Part": "2PIN(2MM)-1",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004826"
+          }
+        ],
+        [
+          "40Ω",
+          1,
+          "RES-TH_L15.9-W8.7-P12.70-D0.8",
+          "U3",
+          {
+            "Manufacturer Part": "R5J40RE",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3471745"
+          }
+        ]
+      ],
+      "updateTime": 1758643429,
+      "createTime": 1758641749,
+      "histories": [],
+      "created_at": "2025-09-23 21:05:49",
+      "updated_at": "2025-09-23 21:33:49"
+    }
+  ],
+  "sort": [],
+  "title": "Potentiometer",
+  "foldername": "Potentiometer",
+  "schfilename": "Potentiometer.json",
+  "schfilemtime": 1763987775410
+}

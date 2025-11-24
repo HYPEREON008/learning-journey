@@ -1,0 +1,144 @@
+{
+  "uuid": "68bdde34988f405a969c680e108e83c4",
+  "path": "Offline/H bridge core design",
+  "name": "H bridge core design",
+  "content": "",
+  "created_at": "2025-10-21 21:45:33",
+  "updated_at": "2025-10-25 19:18:14",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ed154f4b4f83987143ac5d27610d34d6",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "978dd86cb8f545279789152357b8a3b4": 2,
+        "0c33b4cb20b6470fa5657b054ce476d4": 2,
+        "32e379c11e364b57b3b5386068b910a0": 4,
+        "cd05e1cc9e41496f9146c16b51a75532": 4,
+        "ec006d93e45055dfc7306f978db6c800": 1,
+        "4a08d16fc6e54494b07c07bd89f7064d": 1,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 4,
+        "e7cdf7647a4e4e728696e666fae3c7b1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD4.0-P1.50-D0.8-FD",
+          "C2",
+          {
+            "Manufacturer Part": "KS106M050C07RR0VH2FP0",
+            "Manufacturer": "Chengx(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C32856"
+          }
+        ],
+        [
+          "1N4007W",
+          4,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1,D2,D3,D4",
+          {
+            "Manufacturer Part": "1N4007W",
+            "Manufacturer": "BLUE ROCKET",
+            "Supplier": "LCSC",
+            "Supplier Part": "C328592"
+          }
+        ],
+        [
+          "2N7002",
+          2,
+          "SOT-23_L2.9-W1.3-P0.95-LS2.4-BR",
+          "Q1,Q2",
+          {
+            "Manufacturer Part": "2N7002,215",
+            "Manufacturer": "Nexperia",
+            "Supplier": "LCSC",
+            "Supplier Part": "C65189"
+          }
+        ],
+        [
+          "IRF5210",
+          2,
+          "TO-263-2_L10.0-W9.1-P5.08-LS15.2-BR",
+          "Q3,Q4",
+          {
+            "Manufacturer Part": "IRF5210STRLPBF",
+            "Manufacturer": "IR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2622"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "R0603",
+          "R1,R3,R4,R5",
+          {
+            "Manufacturer Part": "TD03H1002BT",
+            "Manufacturer": "FH(风华)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2961367"
+          }
+        ],
+        [
+          "100Ω",
+          4,
+          "R0603",
+          "R2,R6,R7,R8",
+          {
+            "Manufacturer Part": "0603 ±5% 100Ω",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2889393"
+          }
+        ],
+        [
+          "5 Volt Relay",
+          1,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "RLY1",
+          {
+            "Manufacturer Part": "5 Volt Relay mp",
+            "Manufacturer": "松乐",
+            "Supplier": "LCSC",
+            "Supplier Part": "C35449"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L7.0-W3.5-P5.00-D0.6",
+          "U4",
+          {
+            "Manufacturer Part": "B32559C3104K000",
+            "Manufacturer": "TDK",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3769950"
+          }
+        ]
+      ],
+      "updateTime": 1761400094,
+      "createTime": 1761063334,
+      "histories": [],
+      "created_at": "2025-10-21 21:45:34",
+      "updated_at": "2025-10-25 19:18:14"
+    }
+  ],
+  "sort": [],
+  "title": "H bridge core design",
+  "foldername": "H bridge core design",
+  "schfilename": "H bridge core design.json",
+  "schfilemtime": 1761400095009
+}
