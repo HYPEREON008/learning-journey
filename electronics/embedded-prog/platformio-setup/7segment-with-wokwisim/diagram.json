@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Sanmitra Goswami",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg1", "top": 72.18, "left": 149.08, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:23", "sevseg1:B", "green", [ "h0" ] ],
+    [ "esp:22", "sevseg1:A", "green", [ "h0" ] ],
+    [ "esp:21", "sevseg1:F", "green", [ "h14.44", "v-19.2", "h48" ] ],
+    [ "esp:18", "sevseg1:E", "green", [ "h43.24", "v38.4" ] ],
+    [ "sevseg1:D", "esp:5", "green", [ "v9.6", "h-28.8", "v-38.4" ] ],
+    [ "esp:17", "sevseg1:C", "green", [ "h24.04", "v38.4", "h57.6" ] ],
+    [ "esp:19", "sevseg1:G", "green", [ "h0" ] ],
+    [ "esp:5V", "sevseg1:COM.1", "#8f4814", [ "h-4.61", "v28.8", "h172.8" ] ]
+  ],
+  "dependencies": {}
+}
