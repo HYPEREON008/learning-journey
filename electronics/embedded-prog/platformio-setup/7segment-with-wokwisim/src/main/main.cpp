@@ -17,6 +17,8 @@ void setup() {
   for (int i = 0; i < 7; i++) {
     pinMode(Pins[i], OUTPUT);
   }
+  Serial.begin(115200);
+  Serial.println("7-Segment Display Test");
 }
 void digitDisplay(int states[]) {
   for (int i = 0; i < 7; i++) {

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Sanmitra Goswami",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 62.3, "left": -14.6, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": -35.26,
+      "left": 77.03,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -28.5, "left": -91.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "oled1:GND", "esp:GND.2", "black", [ "v307.2", "h-163.2", "v-67.1" ] ],
+    [ "esp:22", "oled1:SCL", "green", [ "h0" ] ],
+    [ "esp:21", "oled1:SDA", "green", [ "h105.6", "v-172.8", "h-48" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v220.8", "h201.6", "v-86.4" ] ],
+    [ "oled1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "esp:D22", "oled1:SCL", "green", [ "h47.46", "v-5.2" ] ],
+    [ "esp:D21", "oled1:SDA", "green", [ "h0" ] ],
+    [ "dht1:SDA", "esp:D33", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

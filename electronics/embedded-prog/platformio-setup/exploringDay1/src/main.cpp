@@ -18,7 +18,7 @@
 // }
 #include <Arduino.h>
 
-int pins[] = {1, 2, 4, 6};
+int pins[] = {2, 4, 18};
 const int numPins = sizeof(pins) / sizeof(pins[0]);
 
 void setup() {
@@ -26,6 +26,12 @@ void setup() {
   for (int i = 0; i < numPins; i++) {
     pinMode(pins[i], OUTPUT);
   }
+
+  Serial.begin(115200);
+  // while (!Serial) {
+  //   delay(10);
+  // }
+  Serial.println("APP STARTED");
 }
 
 void loop() {

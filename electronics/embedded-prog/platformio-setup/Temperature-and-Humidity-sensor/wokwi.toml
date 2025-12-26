@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+elf = ".pio/build/adafruit_feather_esp32s3_nopsram/firmware.elf"
+firmware = ".pio/build/adafruit_feather_esp32s3_nopsram/firmware.bin"
+rfc2217ServerPort = 4000
